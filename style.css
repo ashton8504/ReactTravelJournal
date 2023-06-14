@@ -159,3 +159,33 @@ body {
 .date--style{
     color: black !important;
 }
+
+@media only screen and (max-width: 480px) {
+    .header--section {
+      height: 65px; /* Adjust the height as needed */
+    }
+  
+    .earth {
+      /* Adjust the font size for better visibility on cell phones */
+      font-size: 18px;
+    }
+  
+    .header--title {
+      /* Adjust the font size for better visibility on cell phones */
+      font-size: 16px;
+    }
+  
+    .main-section {
+      /* Adjust the margin for better spacing on cell phones */
+      margin: 5px;
+      padding: 5px;
+    }
+  
+    .content-container h3,
+    .content-container h2,
+    .content-container p {
+      /* Adjust the font size for better readability on cell phones */
+      font-size: 14px;
+    }
+  }
+  
