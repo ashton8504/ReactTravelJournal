@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Styles for Header Section */
+
+.header--section {
+    width: 100%;
+    height: 85px;
+    background: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header--container {
+    display: flex;
+    align-items: center;
+}
+
+.earth {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px; 
+    color: white;
+}
+
+.header--title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.075em;
+    color: black;
+    font-weight: bold;
+    font-size: 20px
+}
+
+
+/* Main Section Styles */
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.image {
+  width: 40%;
+  max-width: 400px;
+  height: 300px; /* Adjust the value as needed */
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.content-container {
+  text-align: left;
+  flex-grow: 1;
+}
+
+
+.content-container h3 {
+  font-size: 20px;
+  color: #2B283A;
+  margin-bottom: 5px;
+}
+
+.content-container h2 {
+  font-size: 24px;
+  color: #2B283A;
+  margin-bottom: 5px;
+}
+
+.content-container p {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 10px;
+}
+
+.content-container hr {
+  margin: 20px auto;
+  width: 100%;
+  border: none;
+  height: 1px;
+  background-color: #dddddd;
+}
+
+.location-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.location {
+    font-weight: bold;
+    width: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+    margin-right: 5px;
+}
+
+.maps-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+    margin-left: 5px;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.content-container {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+.location-image {
+  width: 10px; 
+  margin-right: 10px; 
+  margin-top: 14px; 
+}
+
+.date--style{
+    color: black !important;
+}
